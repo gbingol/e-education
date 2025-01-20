@@ -1,0 +1,67 @@
+<HTML>
+<HEAD>
+
+<style>
+P.loginformat
+{
+	border: thin dotted #3333FF;
+	position: relative;
+	background-position: center center;
+	height: auto;
+	width: auto;
+	text-align: center;
+	text-decoration: blink;
+	cursor: crosshair;
+	vertical-align: middle;
+}
+
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function checkInput()
+{
+	var txtpassword=document.login.password.value;
+	var txtusername=document.login.username.value;
+	if(txtpassword==""){alert("Password can not be blank!");return false;}
+	if(txtusername==""){alert("Username can not be blank!");return false;}
+	return true;
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
+</HEAD>
+
+<BODY background="/images/background.gif">
+<p class="loginformat" align=left><font face="Comic Sans MS"><strong><font color="#0000FF" size=5>MACROHARD</font></strong> <br>
+  <br>
+  </font></p> 
+<FORM name="login" action="loginverify.jsp" method="post" onSubmit="return checkInput()">
+  <TABLE style="WIDTH: 40%" cellSpacing=1 cellPadding=1 width="40%" bgColor=aqua 
+border=1>
+    <TBODY>
+      <TR> 
+        <TD> <P align=right><font face="Comic Sans MS">Username</font> 
+            :</P></TD>
+        <TD><INPUT style="WIDTH: 108px; HEIGHT: 22px" type=textbox size=21 
+      name=username> </TD>
+      <TR> 
+        <TD> <P align=right><font face="Comic Sans MS">Password</font> :</P></TD>
+        <TD><INPUT style="WIDTH: 108px; HEIGHT: 22px" type=password 
+      size=21 name=password ></TD>
+      </TR>
+      <TR> 
+        <TD colSpan=2> <P align=center> 
+            <INPUT type="submit" value="Submit" name="Submit">
+          </P></TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+</FORM>
+
+<P>&nbsp;</P>
+<p align="center">&nbsp;</p>
+<p class="loginscreen">&nbsp;</p>
+<p align="center"><font face="Comic Sans MS">Please use Firefox 10 or above</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</BODY>
+</HTML>
